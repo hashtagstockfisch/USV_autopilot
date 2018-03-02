@@ -44,11 +44,12 @@
 					</folderInfo>
 					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.debug.1504674383.1047794938" name="/" resourcePath="GoogleTestLib">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.450013152" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1319643082" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler.549635473">
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.26648030" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.241944143" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1906964034">
-								<option id="gnu.cpp.compiler.option.include.paths.703017756" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<option id="gnu.cpp.compiler.option.include.paths.703017756" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/GoogleTestLib}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1027753382" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -61,6 +62,34 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.debug.1504674383.897061223" name="/" resourcePath="Tests">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.2142586974" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1563788661" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler.549635473">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1435784377" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1882675170" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1906964034">
+								<option id="gnu.cpp.compiler.option.include.paths.82327786" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/GoogleTestLib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Header}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Interfaces}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Source}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.914426772" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1727074905" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker.1940359797"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.67314576" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker.131114426"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1953180920" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver.1461676721"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1924144265" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler.742279618">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2006408337" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Interfaces|Source|Header" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Header"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Interfaces"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source"/>
+					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
@@ -141,4 +170,5 @@
 			<resource resourceType="PROJECT" workspacePath="/UnitTest"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>
