@@ -4,14 +4,12 @@
 #include "Config.h"
 #include "../Interfaces/IMotorTransportlayer.h"
 #include "USVMotorProtocol.h"
-class DummyClass {
+class MotorCom {
 public:
-	DummyClass();
-	int ReturnThree();
-	void setRPM(double percentage);
+	MotorCom();
 
 private:
-	IMotorTransportlayer* PWM_driver;
+	IMotorTransportlayer* MotorProtocol;
 };
 
 #endif
