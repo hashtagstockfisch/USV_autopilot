@@ -8,5 +8,6 @@ namespace {
 	};
 	TEST_F(DummyTest, TestingDummyReturningThree) {
 		ASSERT_EQ(3, _uut.ReturnThree());
+
 	}
 }
