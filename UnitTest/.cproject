@@ -31,6 +31,9 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1940359797" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.131114426" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
+								<option id="gnu.cpp.link.option.libs.1439873083" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="pthread"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1950648881" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -62,30 +65,31 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.debug.1504674383.897061223" name="/" resourcePath="Tests">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.2142586974" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug" unusedChildren="">
-							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1563788661" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler.549635473">
-								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1435784377" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+					<folderInfo id="cdt.managedbuild.config.gnu.cross.exe.debug.1504674383.208121933" name="/" resourcePath="Tests">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.57089211" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1023441066" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler.549635473">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.696149332" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1882675170" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1906964034">
-								<option id="gnu.cpp.compiler.option.include.paths.82327786" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.358449929" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1906964034">
+								<option id="gnu.cpp.compiler.option.include.paths.412630836" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/GoogleTestLib}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Header}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Interfaces}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Source}&quot;"/>
 								</option>
-								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.914426772" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2069178929" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1727074905" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker.1940359797"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.67314576" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker.131114426"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1953180920" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver.1461676721"/>
-							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1924144265" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler.742279618">
-								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2006408337" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1720083628" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker.1940359797"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.890999464" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker.131114426"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1057626470" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver.1461676721"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.170349386" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler.742279618">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.674429098" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Interfaces|Source|Header" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Tests/DummyClassTest.cpp|Interfaces|Source|Header" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Header"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Interfaces"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source"/>
@@ -136,7 +140,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GoogleTestLib" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Tests/DummyClassTest.cpp|GoogleTestLib" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
-#include "../Source/DummyClass.cpp"
+#include "DummyClassTest.cpp"
 
-int main(int argc, int **argv) {
-	::testing::InitGoogleTests::
+int main(int argc, char **argv) {
+	::testing::InitGoogleTest(&argc, argv);
 	 return RUN_ALL_TESTS();
 }
