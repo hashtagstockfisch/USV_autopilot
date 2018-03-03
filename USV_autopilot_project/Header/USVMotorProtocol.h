@@ -4,7 +4,6 @@
 class USVMotorProtocol : public IMotorTransportlayer {
 public:
 	USVMotorProtocol();
-	~USVMotorProtocol();
 };
 
 #endif
