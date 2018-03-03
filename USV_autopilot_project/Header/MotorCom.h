@@ -7,11 +7,11 @@
 #include "USVMotorProtocol.h"
 class MotorCom : public ISystemStatus {
 public:
-	MotorCom();
+	MotorCom(IMotorTransportlayer* MotorDriverProtocol);
 	bool SelfTest();
 
 private:
-	IMotorTransportlayer* MotorProtocol;
+	IMotorTransportlayer* _motorDriverProtocol;
 };
 
 #endif
