@@ -2,7 +2,9 @@
 #define _ISYSTEMSTATUS_H
 
 class ISystemStatus {
+public:
 	virtual bool SelfTest() = 0;
+	virtual ~ISystemStatus() {};
 };
 
 #endif
