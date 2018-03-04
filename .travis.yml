@@ -16,6 +16,7 @@ script:
   - cmake ..
   - make
   - cmake -Dtest=ON ..
+  - make
   - make test
 
 notifications:
