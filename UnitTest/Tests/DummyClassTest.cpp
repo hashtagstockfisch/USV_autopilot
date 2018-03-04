@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "../Header/DummyClass.h"
+#include "../../USV_autopilot_project/Header/DummyClass.h"
 
 namespace {
 	class DummyTest : public ::testing::Test {
