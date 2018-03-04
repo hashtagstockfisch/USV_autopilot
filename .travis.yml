@@ -10,14 +10,14 @@ compiler:
 # Build steps
 script:
   - sudo apt-get install libxorg-gtest-dev
-  - cd USV_autopilot_project/Debug
-  - ls
+  - cd UnitTest/Tests/cmake-gtest
+  - mkdir build
+  - cd build
+  - cmake ..
   - make
-  - cd ..
-  - cd ..
-  - cd UnitTest/Debug
-  - ls
-  - make all
+  - cmake -Dtest=ON ..
+  - make
+  - make test
 
 notifications:
 email: false
