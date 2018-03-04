@@ -18,7 +18,7 @@ script:
   - make
   - cmake -Dtest=ON ..
   - make
-  - make test
+  - ./runUnitTests
 
 notifications:
 email: false
