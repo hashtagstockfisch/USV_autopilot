@@ -4,18 +4,21 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../Source/AnotherDummy.cpp \
 ../Source/DummyClass.cpp \
 ../Source/MotorCom.cpp \
 ../Source/RCDriver.cpp \
 ../Source/USVMotorProtocol.cpp 
 
 OBJS += \
+./Source/AnotherDummy.o \
 ./Source/DummyClass.o \
 ./Source/MotorCom.o \
 ./Source/RCDriver.o \
 ./Source/USVMotorProtocol.o 
 
 CPP_DEPS += \
+./Source/AnotherDummy.d \
 ./Source/DummyClass.d \
 ./Source/MotorCom.d \
 ./Source/RCDriver.d \

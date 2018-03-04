@@ -25,5 +25,4 @@ CPP_DEPS :=
 SUBDIRS := \
 GoogleTestLib/gtest \
 Source \
-Tests \
 
