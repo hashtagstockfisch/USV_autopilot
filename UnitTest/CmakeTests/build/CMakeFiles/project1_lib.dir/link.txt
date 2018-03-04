@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproject1_lib.a  CMakeFiles/project1_lib.dir/home/emil/git/USV_autopilot/USV_autopilot_project/Source/DummyClass.cpp.o
+/usr/bin/ranlib libproject1_lib.a
