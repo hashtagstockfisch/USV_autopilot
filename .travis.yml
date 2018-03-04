@@ -11,8 +11,8 @@ compiler:
 script:
   - sudo apt-get install libxorg-gtest-dev
   - cd UnitTest/CmakeTests
-  - mkdir build
-  - cd build
+  - mkdir Build
+  - cd Build
   - cmake ..
   - make
   - cmake -Dtest=ON ..
