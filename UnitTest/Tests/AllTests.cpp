@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "DummyClassTest.cpp"
+#include "/UnitTests/DummyClassTest.cpp"
 
 int main(int argc, char **argv) {
 	::testing::InitGoogleTest(&argc, argv);
