@@ -10,7 +10,7 @@ compiler:
 # Build steps
 script:
   - sudo apt-get install libxorg-gtest-dev
-  - cd UnitTest/Tests/cmake-gtest
+  - cd UnitTest/CmakeTests
   - mkdir build
   - cd build
   - cmake ..
