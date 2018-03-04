@@ -11,10 +11,12 @@ compiler:
 script:
   - sudo apt-get install libxorg-gtest-dev
   - cd USV_autopilot_project/Debug
+  - ls
   - make
   - cd ..
   - cd ..
   - cd UnitTest/Debug
+  - ls
   - make all
 
 notifications:
