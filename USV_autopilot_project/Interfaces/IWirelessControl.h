@@ -5,5 +5,6 @@ class IWirelessControl {
 public:
 	virtual void SetVelocity() = 0;
 	virtual void SetAngle() = 0;
+	virtual ~IWirelessControl() {};
 };
 #endif

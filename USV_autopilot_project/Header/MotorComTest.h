@@ -5,10 +5,12 @@
 #include "../Interfaces/IMotorTransportlayer.h"
 #include "../Interfaces/ISystemStatus.h"
 #include "USVMotorProtocol.h"
-class MotorCom : public ISystemStatus {
+
+class MotorComTest : public ISystemStatus
+{
 public:
-	MotorCom(IMotorTransportlayer* MotorDriverProtocol);
-	bool SelfTest();
+	MotorComTest();
+	bool SelfTest(); //Implemented from ISystemStatus
 
 private:
 	IMotorTransportlayer* _motorDriverProtocol;
