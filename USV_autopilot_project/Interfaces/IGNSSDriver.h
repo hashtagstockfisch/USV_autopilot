@@ -8,8 +8,9 @@
 #ifndef INTERFACES_IGNSSDRIVER_H_
 #define INTERFACES_IGNSSDRIVER_H_
 
+
 #include "../Header/Config.h"
-#include <string.h>
+#include <string>
 #include <iostream>
 
 using namespace std;
@@ -23,5 +24,6 @@ public:
 	virtual	double GetLatestFixTime() = 0;
 	virtual ~IGNSSDriver(){};
 };
+
 
 #endif /* INTERFACES_IGNSSDRIVER_H_ */
