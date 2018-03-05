@@ -100,8 +100,8 @@ clean: CMakeFiles/project1_lib.dir/clean
 # Target rules for target CMakeFiles/runUnitTests.dir
 
 # All Build rule for target.
-CMakeFiles/runUnitTests.dir/all: lib/gtest-1.6.0/CMakeFiles/gtest.dir/all
 CMakeFiles/runUnitTests.dir/all: lib/gtest-1.6.0/CMakeFiles/gtest_main.dir/all
+CMakeFiles/runUnitTests.dir/all: lib/gtest-1.6.0/CMakeFiles/gtest.dir/all
 CMakeFiles/runUnitTests.dir/all: CMakeFiles/project1_lib.dir/all
 	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/depend
 	$(MAKE) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/build
