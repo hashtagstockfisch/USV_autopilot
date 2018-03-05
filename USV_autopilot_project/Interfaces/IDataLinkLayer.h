@@ -1,12 +1,12 @@
 /*
- * IGNSSTransportlayer.h
+ * IDataLinkLayer.h
  *
  *  Created on: Mar 5, 2018
  *      Author: mada
  */
 
-#ifndef INTERFACES_IGNSSTRANSPORTLAYER_H_
-#define INTERFACES_IGNSSTRANSPORTLAYER_H_
+#ifndef INTERFACES_IDATALINKLAYER_H_
+#define INTERFACES_IDATALINKLAYER_H_
 
 
 #include "../Header/Config.h"
@@ -15,12 +15,12 @@
 
 using namespace std;
 
-class IGNSSTransportLayer{
+class IDataLinkLayer{
 public:
 	virtual void SendData(string Data) = 0;
 	virtual string ReceiveData() = 0;
-	virtual ~IGNSSTransportLayer(){};
+	virtual ~IDataLinkLayer(){};
 };
 
 
-#endif /* INTERFACES_IGNSSTRANSPORTLAYER_H_ */
+#endif /* INTERFACES_IDATALINKLAYER_H_ */
