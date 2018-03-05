@@ -9,6 +9,7 @@
 #define HEADER_GPSDRIVER_H_
 
 #include "../Interfaces/IGNSSDriver.h"
+#include "../Interfaces/IGNSSTransportLayer.h"
 
 class GPSDriver : public IGNSSDriver {
 public:
@@ -18,6 +19,8 @@ public:
 	string GetPOS();
 	char GetHeading();
 	double GetLatestFixTime();
+private:
+	IGNSSTransportLayer* _GNSSTransportLayer;
 };
 
 #endif /* HEADER_GPSDRIVER_H_ */

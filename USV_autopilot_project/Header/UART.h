@@ -11,7 +11,7 @@
 
 #include "../Interfaces/IDataLinkLayer.h"
 
-class UART : public IDataLinkLayer{
+class UART : public IDataLinkLayer {
 public:
 	UART();
 	void SendData(string Data);

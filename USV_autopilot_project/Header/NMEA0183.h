@@ -10,12 +10,15 @@
 
 
 #include "../Interfaces/IGNSSTransportLayer.h"
+#include "../Interfaces/IDataLinkLayer.h"
 
-class NMEA0183 : public IGNSSTransportLayer{
+class NMEA0183 : public IGNSSTransportLayer {
 public:
 	NMEA0183();
-	void SendData(string Data);
-	string ReceiveData();
+	string RequestData(string DataName);
+	string ReadBus();
+private:
+	IDataLinkLayer* _GNSSDataLinkLayer;
 };
 
 

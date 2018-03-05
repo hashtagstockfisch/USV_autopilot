@@ -15,7 +15,7 @@
 
 using namespace std;
 
-class IDataLinkLayer{
+class IDataLinkLayer {
 public:
 	virtual void SendData(string Data) = 0;
 	virtual string ReceiveData() = 0;

@@ -15,10 +15,10 @@
 
 using namespace std;
 
-class IGNSSTransportLayer{
+class IGNSSTransportLayer {
 public:
-	virtual void SendData(string Data) = 0;
-	virtual string ReceiveData() = 0;
+	virtual string RequestData(string DataName) = 0;
+	virtual string ReadBus() = 0;
 	virtual ~IGNSSTransportLayer(){};
 };
 
