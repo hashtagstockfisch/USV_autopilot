@@ -6,21 +6,21 @@
 CPP_SRCS += \
 ../Source/AnotherDummy.cpp \
 ../Source/DummyClass.cpp \
-../Source/MotorCom.cpp \
+../Source/MotorComTest.cpp \
 ../Source/RCDriver.cpp \
 ../Source/USVMotorProtocol.cpp 
 
 OBJS += \
 ./Source/AnotherDummy.o \
 ./Source/DummyClass.o \
-./Source/MotorCom.o \
+./Source/MotorComTest.o \
 ./Source/RCDriver.o \
 ./Source/USVMotorProtocol.o 
 
 CPP_DEPS += \
 ./Source/AnotherDummy.d \
 ./Source/DummyClass.d \
-./Source/MotorCom.d \
+./Source/MotorComTest.d \
 ./Source/RCDriver.d \
 ./Source/USVMotorProtocol.d 
 

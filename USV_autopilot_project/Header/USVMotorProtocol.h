@@ -7,6 +7,8 @@ public:
 	void SetVelocityAndAngle(int percentage, int angle);
 	void SetVelocity(int percentage);
 	void SetAngle(int angle);
+
+private:
 };
 
 #endif
