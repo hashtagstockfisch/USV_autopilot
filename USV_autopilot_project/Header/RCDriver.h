@@ -10,7 +10,7 @@ public:
 	bool SelfTest(); //Implemented from ISystemStatus
 	void SetVelocity(); //Implemented from IWirelessControl
 	void SetAngle(); //Implemented from IWirelessControl
-	int ReadVelocityAndAngle();
+	int* GetVelocityAndAngle();
 
 private:
 	IMotorTransportlayer* _motorCom;
