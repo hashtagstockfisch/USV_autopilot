@@ -15,6 +15,7 @@ struct TxtConfigParameters{
 
 struct Parameters {
 	IMotorTransportlayer* MotorTransportlayer;
+	IDataLinkLayer* MotorDataLinklayer;
 };
 
 void InitConfig ();
