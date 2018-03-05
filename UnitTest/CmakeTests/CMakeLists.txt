@@ -57,7 +57,7 @@ if (test)
   ##############
   # Unit Tests
   ##############
-  add_executable(runUnitTests DummyClassTest.cpp)
+  add_executable(runUnitTests ../Tests/DummyClassTest.cpp)
 
   # Standard linking to gtest stuff.
   target_link_libraries(runUnitTests gtest gtest_main)
