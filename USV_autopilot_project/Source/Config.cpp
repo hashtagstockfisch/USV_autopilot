@@ -5,9 +5,12 @@
  *      Author: emil
  */
 #include "../Header/Config.h"
+#include "../Header/AllHeaders.h"
 
-void InitConfig() {
 
+Parameters Config;
+void InitConfig () {
+	Config.MotorTransportlayer = new USVMotorProtocol();
 }
 
 

@@ -9,6 +9,7 @@ public:
 	void SetAngle(int angle);
 
 private:
+
 };
 
 #endif

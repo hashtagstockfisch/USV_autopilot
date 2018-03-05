@@ -1,7 +1,8 @@
 #include "../Header/RCDriver.h"
-
+#include "../Header/Config.h"
+extern struct Parameters Config;
 RCDriver::RCDriver() {
-
+	_motorCom = Config.MotorTransportlayer;
 }
 
 void RCDriver::SetVelocity() {
