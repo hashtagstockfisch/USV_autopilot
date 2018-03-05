@@ -20,6 +20,7 @@ public:
 	string GetPOS();
 	char GetHeading();
 	double GetLatestFixTime();
+	bool SelfTest();
 private:
 	IGNSSTransportLayer* _GNSSTransportLayer;
 };
