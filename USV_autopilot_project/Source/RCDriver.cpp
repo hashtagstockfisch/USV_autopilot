@@ -14,6 +14,6 @@ bool RCDriver::SelfTest() {
 	return 0;
 }
 
-int RCDriver::ReadVelocityAndAngle() {
+int* RCDriver::GetVelocityAndAngle() {
 	return 0;
 }
