@@ -9,9 +9,10 @@
 #define HEADER_GPSDRIVER_H_
 
 #include "../Interfaces/IGNSSDriver.h"
+#include "../Interfaces/ISystemStatus.h"
 #include "../Interfaces/IGNSSTransportLayer.h"
 
-class GPSDriver : public IGNSSDriver {
+class GPSDriver : public IGNSSDriver, public ISystemStatus {
 public:
 	GPSDriver();
 	void SetANTOffset(int OffsetCM);
